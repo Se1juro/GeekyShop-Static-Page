@@ -1,0 +1,22 @@
+body footer{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btnLog{
+    padding: 10px;
+}
+
+.tituloForm{
+    font-size: 20px;
+    text-align: left;
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 250px;
+    margin: auto;
+}
