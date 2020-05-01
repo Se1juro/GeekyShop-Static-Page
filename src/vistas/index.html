@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <%- include ('parciales/head.html')  %> <!-- DESACOPLO EL HTML, PASO ALGUNAS ESTRUCTURAS DE HTML 
+    A ARCHIVO INDEPENDIENTES, LUEGO LOS LLAMO DESDE ESTE ARCHIVO CON EJS.-->
+    <title><%=title %></title>
+</head>
+
+<body>
+    <%- include ('parciales/header.html')  %>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">La tienda mas grande de juegos</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="imagenes/ninja.svg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>Los mejores juegos estan aquí</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa nam laboriosam velit, consequatur
+                        deserunt officiis reiciendis blanditiis aliquid ad ullam est iure dolorum cupiditate, quis earum
+                        mollitia possimus optio saepe.</p>
+                    <h3><span>2</span>Increible varidad de juegos</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa nam laboriosam velit, consequatur
+                        deserunt officiis reiciendis blanditiis aliquid ad ullam est iure dolorum cupiditate, quis earum
+                        mollitia possimus optio saepe.</p>
+                </div>
+            </div>
+        </section>
+        <section class="juegos">
+            <div class="contenedor">
+                <h2 class="titulo">Titulos</h2>
+                <div class="galeria-juegos">
+                    <div class="imagen-jueg">
+                        <img src="./imagenes/rd.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="./imagenes/electronica.svg" alt="">
+                            <p>Nuestros mejores juegos</p>
+                        </div>
+                    </div>
+                    <div class="imagen-jueg">
+                        <img src="./imagenes/re2remake.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="./imagenes/electronica.svg" alt="">
+                            <p>Nuestros mejores juegos</p>
+                        </div>
+                    </div>
+                    <div class="imagen-jueg">
+                        <img src="./imagenes/zelda.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="./imagenes/electronica.svg" alt="">
+                            <p>Nuestros mejores juegos</p>
+                        </div>
+                    </div>
+                    <div class="imagen-jueg">
+                        <img src="./imagenes/destiny.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="./imagenes/electronica.svg" alt="">
+                            <p>Nuestros mejores juegos</p>
+                        </div>
+                    </div>
+                    <div class="imagen-jueg">
+                        <img src="./imagenes/death.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="./imagenes/electronica.svg" alt="">
+                            <p>Nuestros mejores juegos</p>
+                        </div>
+                    </div>
+                    <div class="imagen-jueg">
+                        <img src="./imagenes/gtav.png" alt="">
+                        <div class="hover-galeria">
+                            <img src="./imagenes/electronica.svg" alt="">
+                            <p>Nuestros mejores juegos</p>
+                        </div>
+                    </div>
+                    <div class="imagen-jueg">
+                        <img src="./imagenes/codmw.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="./imagenes/electronica.svg" alt="">
+                            <p>Nuestros mejores juegos</p>
+                        </div>
+                    </div>
+                    <div class="imagen-jueg">
+                        <img src="./imagenes/acunity.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="./imagenes/electronica.svg" alt="">
+                            <p>Nuestros mejores juegos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <%- include('parciales/footer.html')%>
+</body>
+
+</html>
