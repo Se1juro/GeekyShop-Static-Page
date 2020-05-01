@@ -1,4 +1,4 @@
-body footer{
+*{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -6,17 +6,101 @@ body footer{
 }
 
 .btnLog{
+    margin-top: 10px;
+    margin-right: 15px;
     padding: 10px;
+    background-color: #2ecc71;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    display: block;
+    width: 300px;
+    margin-bottom: 10px;
 }
 
-.tituloForm{
-    font-size: 20px;
-    text-align: left;
+.olvidePass{
+    margin: 140px;
+    text-decoration: none;
+    color: #0F4633;
+    text-decoration: underline;
+}
+
+.campoTexto{
+    height: 50px;
+    width: 300px;
+    margin-left: 10px;
+    background: rgb(177, 177, 177);
+    border: 0px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 28px;
+
+}
+
+.textUser{
+    background-image: url('/imagenes/social.png');
+}
+
+.textPass{
+    background-image: url('/imagenes/restringido.png');
+}
+
+.headerTitulo{
+    font-size: 30px;
+    text-align: center;
 }
 
 .contenedor{
     padding: 60px 0;
     width: 90%;
-    max-width: 250px;
+    max-width: 400px;
     margin: auto;
 }
+.form-group{
+    font-size: 20px;
+    margin:20px 0;
+}
+
+
+.noticiaInput{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #2c3e50;
+}
+.formLogin{
+    border-radius: 10px;
+    border: 5px solid #0F4633;
+    padding: 20px;
+    margin:10px;
+    background: #FFF3EB;
+}
+.parametros{
+    font-weight: 500;
+}
+.paramCheck{
+    font-size: 15px;
+}
+
+.form-check{
+    margin-left: 15px;
+}
+
+.form-check-input {
+    cursor: pointer;
+}
+
+.botones{
+    margin-left: 10px;
+    
+}
+
+
