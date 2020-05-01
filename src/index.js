@@ -1,6 +1,7 @@
 const express= require('express')
 const app = express() //Es el servidor
 const path=require('path');
+const favicon = require('serve-favicon')
 
 //Configuracion del server
 app.set('port',3000)
@@ -12,6 +13,7 @@ app.set('view engine','ejs')
 app.use(require('./rutas/index'))
 
 //archivos estaticos
+app.use(favicon(path.join(__dirname,'publico','imagenes','favicon.ico')));
 app.use(express.static(path.join(__dirname,'publico')))//TRAIGO LOS ARCHIVOS ESTATICOS, LOS QUE USARE EN MI PAGINA
 //PARA ESO DEBO TENER LA CARPETA PUBLICO, CON LOS ARCHIVOS DENTRO
 
